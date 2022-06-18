@@ -1,0 +1,528 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: #38AECB;
+}
+a:visited {
+  color: #38AECB;
+}
+a:hover {
+  color: #216a7c;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+ul {
+  margin-bottom: 1rem;
+}
+
+li {
+  margin: 0.7rem 0;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+i {
+  color: #E3582D;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: "Oswald", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Dosis", sans-serif;
+}
+
+.large {
+  font-size: 3rem;
+}
+
+.medium {
+  font-size: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.strong {
+  font-weight: 700;
+}
+
+.small-text {
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #38AECB;
+}
+
+.vertical-horizontal-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.callToAction {
+  margin: 20px 0;
+}
+
+.white-background-section {
+  border-bottom: solid 1px #38AECB;
+}
+
+.button {
+  border: solid 1px transparent;
+  color: #FFF;
+  padding: 0.5rem 0.5rem;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 1rem;
+  outline: none;
+  transition: all 0.4s ease-in;
+  border-radius: 4px;
+}
+.button-lg {
+  padding: 1rem 1.3rem;
+  font-size: 1.3rem;
+}
+.button-primary {
+  background-color: #38AECB;
+  color: #FFF;
+}
+.button-primary:hover {
+  background: #2b8da5;
+  color: #FFF;
+}
+.button-secondary {
+  background-color: #E3582D;
+  color: #FFF;
+}
+.button-secondary:hover {
+  background: #c3421a;
+  color: #FFF;
+}
+.button-block {
+  width: 100%;
+}
+
+.button:visited {
+  color: #FFF;
+}
+
+input[type=text], input[type=password], select, textarea {
+  width: 100%;
+  margin: 10px 0;
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem;
+  outline: none;
+  border: 1px solid #38AECB;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+input[type=checkbox], input[type=radio] {
+  outline: solid 1px #D4EFF5;
+}
+
+input[type=submit] {
+  margin: 10px 0;
+}
+
+.topsearchForm {
+  display: flex;
+  align-items: center;
+}
+.topsearchForm input[type=text] {
+  margin-right: 10px;
+}
+
+#contact-form {
+  display: flex;
+  justify-content: center;
+}
+#contact-form form {
+  padding: 20px;
+  background-color: #38AECB;
+}
+
+.main-container {
+  margin: 0px auto;
+}
+
+.site-section {
+  padding: 2rem;
+}
+
+.section-description h1 {
+  color: #E3582D;
+}
+
+.section-description img {
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.row .searchBlock {
+  margin: 30px 50px;
+  text-align: center;
+}
+.row .searchBlock .checkboxGroup {
+  margin-top: 10px;
+}
+
+.searchRow {
+  margin-bottom: 50px;
+}
+
+.header-container {
+  width: 100%;
+  padding: 1rem 4rem;
+  border-bottom: solid 2px #38AECB;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 10px 0;
+}
+#header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+#header ul a {
+  padding-right: 10px;
+}
+
+.hero {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/supermarkt.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  color: #FFF;
+  background-position: center center;
+  background-size: cover;
+}
+
+footer #footer-content {
+  margin: 30px 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer #footer-content .footer-nav ul {
+  display: flex;
+}
+footer #footer-content .footer-nav ul a {
+  padding: 0px 10px;
+}
+footer #copyright {
+  background-color: #D4EFF5;
+  padding: 20px 0;
+}
+
+.find-therapist {
+  background-color: #D4EFF5;
+}
+.find-therapist .searchZone {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.find-therapist .searchZone .homePageForm {
+  padding: 20px;
+  background-color: #38AECB;
+}
+.find-therapist .searchZone .formHeader {
+  background-color: #89cfe0;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.match-needs .detailedSearch {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+}
+.match-needs .detailedSearch .searchBlock {
+  width: 100%;
+}
+
+.services {
+  background-color: #D4EFF5;
+}
+.services .serviceList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 50px;
+}
+.services .serviceList .service {
+  text-align: center;
+  padding: 20px 20px;
+  border: solid 1px #E3582D;
+  margin-right: 20px;
+}
+.services .serviceList .service .serviceIcon {
+  margin-bottom: 20px;
+}
+
+.search-section {
+  background-color: #D4EFF5;
+}
+
+.searchResultSection .searchResults {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+}
+.searchResultSection .searchResults .result {
+  border: solid 1px #38AECB;
+  width: 100%;
+  max-width: 100%;
+  margin-right: 10px;
+}
+.searchResultSection .searchResults .result .resultHeader {
+  padding: 30px;
+}
+.searchResultSection .searchResults .result .resultHeader .marketName {
+  margin: 10px 0;
+}
+.searchResultSection .searchResults .result .resultMain {
+  padding: 20px;
+}
+.searchResultSection .searchResults .result .resultMain p {
+  font-size: 1rem;
+}
+.searchResultSection .searchResults .result .resultMain i {
+  margin-right: 5px;
+  font-size: 1.2rem;
+}
+.searchResultSection .searchResults .result .resultFooter {
+  border-top: solid 1px #D4EFF5;
+  padding: 5px;
+}
+.searchResultSection .pagination {
+  display: flex;
+  justify-content: center;
+}
+.searchResultSection .pagination ul {
+  display: flex;
+}
+.searchResultSection .pagination ul a {
+  padding: 0px 10px;
+}
+
+.details-section {
+  background-color: #D4EFF5;
+}
+.details-section .marketImg img {
+  border-radius: 8px;
+}
+.details-section .market-detail {
+  margin: 30px 50px;
+}
+.details-section .market-detail table {
+  width: 100%;
+}
+.details-section .market-detail table .detailRow td {
+  border: solid 1px #38AECB;
+  padding: 10px;
+}
+.details-section .market-detail table .detailRow .columnName {
+  color: #E3582D;
+}
+.details-section #contact-form form {
+  width: 50%;
+}
+
+.contact-page .contact-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .header-container, .main-container {
+    max-width: 960px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .site-section {
+    padding: 1rem;
+  }
+
+  #header {
+    flex-direction: column;
+  }
+  #header ul a {
+    padding-right: 10px;
+    font-size: 1rem;
+  }
+
+  .searchZone {
+    flex-direction: column;
+  }
+  .searchZone .map {
+    margin-top: 30px;
+  }
+
+  .detailedSearch .row {
+    flex-direction: column;
+  }
+
+  .serviceList {
+    flex-direction: column;
+  }
+  .serviceList .service {
+    margin-top: 20px;
+  }
+
+  footer #footer-content {
+    flex-direction: column;
+  }
+  footer #footer-content .footer-nav {
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  footer #footer-content .footer-nav ul {
+    line-height: 1rem;
+  }
+  footer #footer-content .footer-nav ul a {
+    font-size: 1rem;
+  }
+
+  .searchResultSection .searchRow {
+    display: flex;
+    flex-direction: column;
+  }
+  .searchResultSection .searchRow .result {
+    margin-bottom: 10px;
+  }
+
+  .details-section .market-detail {
+    margin: 10px 5px;
+  }
+  .details-section .market-detail table {
+    font-size: 1rem;
+  }
+  .details-section #contact-form form {
+    width: 100%;
+  }
+
+  .contact-page .contact-section {
+    flex-direction: column-reverse;
+  }
+  .contact-page .contact-section .contact-img {
+    margin-bottom: 20px;
+    width: 80%;
+  }
+}
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+
+/*# sourceMappingURL=app.css.map */

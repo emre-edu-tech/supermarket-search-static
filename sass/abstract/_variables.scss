@@ -1,0 +1,25 @@
+$primary-color: #38AECB; // blue
+$secondary-color: #E3582D; // orange-button color
+$light-blue-background: #D4EFF5; // sky blue
+$dark-blue-background: #38AECB;	// dark blue
+$section-dark-blue-background: #271C4E; // section background dark blue
+$danger-color: #E50300;	// crimson red
+$warning-color: #FFF000;	// yellow rose
+$success-color: #21A054;	// sea green
+$gutter: 20px;
+
+// set text color based on background
+@function set-text-color($color) {
+	@if(lightness($color) > 80) {
+		// if background is a light color
+		@return #333;
+	} @else {
+		// if background color is a dark color
+		@return #FFF;
+	}
+}
+
+@mixin set-background($color) {
+	background-color: $color;
+	color: set-text-color($color);
+}

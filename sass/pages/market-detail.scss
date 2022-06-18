@@ -1,0 +1,36 @@
+.details-section {
+	
+	background-color: $light-blue-background;
+
+	.marketImg {
+		img {
+			border-radius: 8px;
+		}
+	}
+
+	.market-detail{
+		margin: 30px 50px;
+
+		table{
+			width: 100%;
+
+			.detailRow {
+
+				td {
+					border: solid 1px $dark-blue-background;
+					padding: 10px;
+				}
+
+				.columnName {
+					color: $secondary-color;
+				}
+			}
+		}
+	}
+
+	#contact-form {
+		form {
+			width: 50%;
+		}
+	}
+}

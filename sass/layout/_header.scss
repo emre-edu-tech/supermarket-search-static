@@ -1,0 +1,37 @@
+.header-container {
+	width: 100%;
+	padding: 1rem 4rem;
+	border-bottom: solid 2px $primary-color;
+}
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+	padding: 10px 0;
+
+	ul {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		list-style: none;
+
+		a {
+			padding-right: 10px;
+		}
+	}
+}
+
+.hero {
+	height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('../images/supermarkt.jpg');
+	background-color: rgba(0, 0, 0, 0.6);
+	background-blend-mode: overlay;
+	color: #FFF;
+	background-position: center center;
+	background-size: cover;
+}

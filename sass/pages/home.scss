@@ -1,0 +1,57 @@
+.find-therapist {
+
+	background-color: $light-blue-background;
+
+	.searchZone {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+
+		.homePageForm{
+			padding: 20px;
+			background-color: $dark-blue-background;	
+		}
+
+		.formHeader {
+			background-color: lighten($dark-blue-background, 20%);
+			margin-bottom: 20px;
+			padding: 10px;
+		}
+	}
+}
+
+.match-needs {
+	.detailedSearch {
+		
+		display: flex;
+		flex-direction: column;
+		padding: 20px 50px;
+
+	}
+
+	.detailedSearch .searchBlock{
+        width: 100%;
+    }
+}
+
+.services {
+	background-color: $light-blue-background;
+
+	.serviceList {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 30px 50px;
+
+		.service {
+			text-align: center;
+			padding: 20px 20px;
+			border: solid 1px $secondary-color;
+			margin-right: 20px;
+
+			.serviceIcon {
+				margin-bottom: 20px;
+			}
+		}
+	}
+}

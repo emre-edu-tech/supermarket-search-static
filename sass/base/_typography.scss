@@ -1,0 +1,30 @@
+body {
+	font-size: 1.2rem;
+	font-family: 'Oswald', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Dosis', sans-serif;
+}
+
+.large {
+	font-size: 3rem;
+}
+
+.medium {
+	font-size: 2rem;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.strong {
+	font-weight: 700;
+}
+
+.small-text {
+	font-weight: 700;
+	font-size: 0.8rem;
+	color: $primary-color;
+}

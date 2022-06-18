@@ -1,0 +1,114 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .header-container, .main-container{
+        max-width: 960px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .site-section {
+        padding: 1rem;
+    }
+    #header{
+        flex-direction: column;
+        ul {
+
+            a {
+                padding-right: 10px;
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .searchZone{
+        flex-direction: column;
+
+        .map {
+            margin-top: 30px;
+        }
+    }
+
+    .detailedSearch .row{
+        flex-direction: column;
+    }
+
+    .serviceList {
+        flex-direction: column;
+
+        .service {
+            margin-top: 20px;
+        }
+    }
+
+    footer{
+        #footer-content{
+            flex-direction: column;
+
+            .footer-nav{
+                flex-direction: row;
+                margin-top: 20px;
+                ul{
+                    line-height: 1rem;
+                    a{
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .searchResultSection{
+        .searchRow{
+            display: flex;
+            flex-direction: column;
+
+            .result{
+                margin-bottom: 10px;    
+            }
+        }
+    }
+    
+    .details-section{
+        .market-detail{
+            margin: 10px 5px;
+            table{
+                font-size: 1rem;
+            }
+        }
+
+        #contact-form {
+            form {
+                width: 100%;
+            }
+        }
+    }
+
+    .contact-page {
+    
+        .contact-section {
+            
+            flex-direction: column-reverse;
+
+            .contact-img{
+                margin-bottom: 20px;
+                width: 80%;
+            }
+        }
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}

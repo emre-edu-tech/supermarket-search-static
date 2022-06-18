@@ -1,0 +1,44 @@
+.button {
+	border: solid 1px transparent;
+	color: #FFF;
+	padding: 0.5rem 0.5rem;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1rem;
+	cursor: pointer;
+	margin-right: 1rem;
+	outline: none;
+	transition: all 0.4s ease-in;
+	border-radius: 4px;
+
+	&-lg {
+		padding: 1rem 1.3rem;
+		font-size: 1.3rem;
+	}
+
+	&-primary {
+		@include set-background($primary-color);
+
+		&:hover {
+			background: darken($primary-color, 10%);
+			color: #FFF;
+		}
+	}
+
+	&-secondary {
+		@include set-background($secondary-color);
+
+		&:hover {
+			background: darken($secondary-color, 10%);
+			color: #FFF;
+		}	
+	}
+
+	&-block {
+		width: 100%;
+	}
+}
+
+.button:visited {
+	color: #FFF;
+}

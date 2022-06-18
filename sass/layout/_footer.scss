@@ -1,0 +1,23 @@
+footer {
+
+	#footer-content {
+		margin: 30px 50px;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+
+		.footer-nav {
+			ul{
+				display: flex;
+				a {
+					padding: 0px 10px;
+				}
+			}
+		}
+	}
+
+	#copyright {
+		background-color: $light-blue-background;
+		padding: 20px 0;
+	}
+}
